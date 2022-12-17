@@ -3,7 +3,9 @@ import './index.css'
 
 function ClearButton(props){
   return (
-    <div className="clear-button" >
+    <div className="clear-button"
+      onClick={props.handleClick}
+    >
       {props.children}
     </div>
   );

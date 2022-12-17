@@ -10,6 +10,7 @@ function Button(props){
   return(
     <div
       className={`button-container ${isOperator(props.children) ? 'operator' : ''}`.trimEnd()} //trimEnd method removes spaces from the end of a string
+      onClick={() => props.handleClick(props.children)}
     > 
       {props.children}
     </div>
