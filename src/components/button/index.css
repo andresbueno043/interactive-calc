@@ -14,3 +14,12 @@
   cursor: pointer;
   user-select: none;
 }
+
+.operator{
+  background-color: #4B2666;
+  color: white;
+}
+
+.button-container:hover{
+  background-color: #584466;
+}
