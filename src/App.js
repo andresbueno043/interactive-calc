@@ -6,6 +6,7 @@ import { ClearButton } from './components/clearButton';
 import { useState } from 'react';
 import { click } from '@testing-library/user-event/dist/click';
 import { evaluate } from 'mathjs';
+import { GithubButton } from 'react-github-link-button/dist'
 
 function App() {
   
@@ -70,6 +71,7 @@ function App() {
           </ClearButton>
         </div>
       </div>
+      <GithubButton />
     </div>
   );
 }
